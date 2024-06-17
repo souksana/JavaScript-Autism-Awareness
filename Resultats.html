@@ -1,0 +1,374 @@
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="resultats.css">
+    <script lang="javascript" src="https://cdn.sheetjs.com/xlsx-0.19.1/package/dist/xlsx.full.min.js"></script>
+    <script src="https://unpkg.com/simple-statistics@7.8.0/dist/simple-statistics.min.js"></script>
+    <script src="https://unpkg.com/chart.js@3.9.1/dist/chart.min.js">
+    </script>
+    <script src="https://unpkg.com/@sgratzl/chartjs-chart-boxplot@3.10.0/build/index.umd.min.js">
+    </script>
+    <title>Résultats</title>
+</head>
+
+
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="https://ibrain.univ-tours.fr/"><button class="btn-don">Faire un don</button></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="Accueil.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Resultats.html">Résultats</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Experience.html">Expérience utilisateur</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Presentation.html">Équipe</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <h1 class="titre">Les résultats</h1>
+    <p class="slogan">Un regard éclairé sur l'autisme à travers la visualisation des données</p>
+    <a href="#resulte"><button class="btn-soustitre">Voir les résultats</button></a>
+</header>
+
+<body>
+
+    <section class="grandpublic s">
+        <h2 class="sh2">Vulgarisation scientifique</h2>
+        <div class="animation">
+            <img src="images/animation/GRAPHIQUE.gif">
+        </div>
+        <div class="accordion" id="accordionVS">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOneVS" aria-expanded="false" aria-controls="collapseOneVS">
+                        Glossaire
+                    </button>
+                </h2>
+                <div id="collapseOneVS" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionVS">
+                    <div class="accordion-body">
+                        <strong>Paramètres :</strong>
+                        <ul>
+                            <li>TTT <span class="spanPara">(Temps Total Tracké)</span> : Temps total enregistrement
+                                (regard capté par eye-tracker)</li>
+                            <li>TP <span class="spanPara">(Temps Passé)</span> : Temps passé cumulé dans une Zone
+                                (zone Ecran non concernée)</li>
+                            <li>TF <span class="spanPara">(Temps de Fixations)</span> : Temps cumulé pendant lequel le
+                                cerveau
+                                fait la reconnaissance des objets.</li>
+                            <li>NBF <span class="spanPara">(NomBre de Fixations)</span> : Nombre de fixation dans une
+                                Zone du sujet.</li>
+                            <li>NBEZ <span class="spanPara">(NomBre d'Entrée dans la Zone)</span> : Nombre de visite
+                                d’une zone
+                                (zone Ecran non concernée)</li>
+                            <li>Lat <span class="spanPara">(Latence)</span> : Temps passé avant la première visite d’une
+                                zone</li>
+                        </ul>
+
+                        <strong>Populations :</strong>
+                        <ul>
+                            <li>DT <span class="spanPara">(Développement Typique)</span> : Enfants ne présentant pas de
+                                signes d'autisme</li>
+                            <li>TSA <span class="spanPara">(Trouble du spectre de l'autisme)</span> : Enfants présentant
+                                un trouble du spectre de l'autisme</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="pt-3">
+            L'expérience
+        </h3>
+        <p>
+            L'équipe de recherche a utilisé une technologie spéciale appelée eye-tracker, qui suit les mouvements des
+            yeux, pour étudier
+            les regards de deux groupes d'enfants : un groupe avec un développement typique (DT) et un autre groupe
+            composé d'enfants ayant un trouble du spectre de l'autisme (TSA). Ces enfants ont entre 2 et 13 ans.
+        </p>
+        <p>
+            Les chercheurs ont montré aux enfants des images de visages avec des expressions neutres (ni tristes ni
+            joyeuses) pendant 4 secondes chacune. Pendant ce temps, l'eye-tracker enregistre différentes informations,
+            comme où les yeux se fixent le plus souvent sur le visage (écran, tête, yeux, bouche) et à quelle fréquence
+            ils revisitent certaines parties du visage.
+        </p>
+        <p>
+            L'objectif de cette expérience est de trouver des signes distinctifs dans la façon dont les enfants typiques
+            et les enfants TSA regardent ces visages. Les chercheurs veulent découvrir des "bioindicateurs" qui
+            pourraient être utilisés pour aider au diagnostic des troubles du spectre autistique chez les enfants. En
+            résumé, ils espèrent trouver des indices visuels spécifiques qui pourraient être utiles pour comprendre et
+            diagnostiquer plus précisément les enfants ayant des troubles du spectre autistique.
+
+        </p>
+        <h3>
+            Quelques données significatives
+        </h3>
+        <div class="container containerDS">
+            <div class="row">
+                <div class="DSTexte col-lg-6 col-sm-12">
+                    <p>
+                        Les enfants présentant des troubles du spectre autistique (TSA) se distinguent des enfants au
+                        développement
+                        typique (DT) à travers plusieurs comportements visuels spécifiques. Voici quelques exemples :
+                    <ul>
+                        <li>
+                            <span class="spanPara"><strong>Fixation de l'écran (Visage 1 et 4) <span
+                                        class="exposants">¹</span></strong></span> : Les enfants TSA
+                            fixent l'écran à des
+                            pourcentages plus élevés que
+                            les enfants DT (82% vs. 71% pour le visage 1, 85% vs. 71% pour le visage 4), suggérant une
+                            préférence
+                            marquée pour cet aspect visuel.
+                        </li>
+                        <li>
+                            <span class="spanPara"><strong>Fixation de la tête (Visage 1, 2 et 4) <span
+                                        class="exposants">²</span></strong></span> : Les enfants TSA
+                            accordent une
+                            attention plus importante à la tête par rapport aux enfants DT (82% vs. 70% pour le visage
+                            1,
+                            89%
+                            vs.
+                            78% pour le visage 2, 83% vs. 66% pour le visage 4), indiquant une différence dans la
+                            focalisation
+                            sur
+                            les caractéristiques faciales.
+                        </li>
+                        <li>
+                            <span class="spanPara"><strong>Fixation des yeux (Visage 1 et 3) <span
+                                        class="exposants">³</span></strong></span>: Les enfants TSA
+                            fixent davantage les
+                            yeux que les enfants DT (32%
+                            vs. 20% pour le visage 1, 7% vs. 1,6% pour le visage 3), suggérant une sensibilité
+                            particulière
+                            à
+                            cette
+                            zone.
+                        </li>
+                        <li>
+                            <span class="spanPara"><strong>Revisite de la bouche (Visage 3)</strong></span> : Les
+                            enfants
+                            TSA
+                            revisitent moins fréquemment la bouche que les
+                            enfants DT (1 fois toutes les 7 secondes vs. 1 fois toutes les 2 secondes), soulignant une
+                            différence
+                            dans le comportement exploratoire.
+                        </li>
+                        <li>
+                            <span class="spanPara"><strong>Temps de première fixation de la bouche (Visage
+                                    3)</strong></span>:
+                            Les
+                            enfants TSA mettent plus de temps pour regarder
+                            la première fois la bouche par rapport aux enfants DT (3,83 s vs. 3,26 s), suggérant une
+                            modulation
+                            temporelle dans l'exploration faciale.
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+                <div class="DSVideo col-lg-6 col-sm-12">
+                    <video class="dsv" controls autoplay loop muted>
+                        <source src="images/animation/ENFANT_fixe_un_ecran.mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+        <div class="accordion" id="accordionDONNES">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOneDN" aria-expanded="false" aria-controls="collapseOneDN">
+                        Données en graphique
+                    </button>
+                </h2>
+                <div id="collapseOneDN" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionDONNES">
+                    <div class="accordion-body">
+                        <canvas id="dn1"></canvas>
+                        <canvas id="dn2"></canvas>
+                        <canvas id="dn3"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="s mt-4">
+
+    <section id="resulte" class="scientifique s">
+        <h2 class="sh2 mt-3">Approfondissez vos recherches</h2>
+        <section class="choix d-flex justify-content-lg-between flex-lg-row flex-sm-column gap-sm-3 flex-xs-column ">
+
+            <div class="choix_fichier">
+                <label class="custom-input-file">
+                    Choisir un fichier
+                    <input type="file" name="xls" id='xls' accept=".xls, .xlsx, .csv" required>
+                </label>
+                <p class="nomFichier text-muted">Aucun fichier n'est sélectionné</p>
+            </div>
+
+            <div class="choix_visage d-none">
+                <label for="visageSelect">Choix du visage :</label>
+                <select name="visageSelect" id="visageSelect">
+                </select>
+            </div>
+
+            <div class="choix_age d-none">
+                <label for="ageSelect">Choix d'un âge (critère de séparation) :</label>
+                <select name="ageSelect" id="ageSelect">
+                </select>
+            </div>
+        </section>
+
+
+        <div class="accordion d-none accordionS" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Analyse par variable
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="filtres d-flex justify-content-evenly">
+                            <div class="choix_zone">
+                                <label for="zoneSelect">Choix de la zone:</label>
+                                <select name="zoneSelect" id="zoneSelect">
+                                </select>
+                            </div>
+                            <div class="choix_variable">
+                                <label for="variableSelect">Choix de la variable:</label>
+                                <select name="variableSelect" id="variableSelect">
+                                </select>
+                            </div>
+                        </div>
+                        <hr>
+                        <div id="container" class="col-12">
+                            <div class="row">
+                                <div id="containerTabVar" class="container col-lg-6 col-sm-12">
+                                    <div class="row rowVar">
+                                        <div class="imgVar imgVisage col-lg-6 col-sm-6">
+                                            <img src="" alt="">
+                                            <p class="spanPara PIMG">Visage choisi</p>
+                                        </div>
+
+
+                                        <div class="imgVar imgPictos col-lg-6 col-sm-6">
+                                            <img src="" alt="">
+                                            <p class="spanPara PIMG">Variable choisie</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="row rowErreur d-none">
+                                        <p class="erreur"><strong>ERREUR : Les données ne permettent pas de générer un
+                                                graphique.</strong></p>
+                                    </div>
+                                </div>
+                                <div id="containerCanvas" class="col-lg-6 col-sm-12">
+                                    <canvas id="canvas"></canvas>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div id="containerDT" class="col-lg-6 col-sm-12">
+                                    <canvas id="canvasDT"></canvas>
+                                </div>
+                                <div id="containerTSA" class="col-lg-6 col-sm-12">
+                                    <canvas id="canvasTSA"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Analyse globale
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <h3>Récapitulatif 2-13ans</h3>
+                        <div class="divTabRecap"></div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <hr class="s">
+
+    <section class="ccl s">
+        <h2 class="sh2 mt-3">
+            Que pouvons-nous en retenir ?
+        </h2>
+        <p>
+            Ces données sur les enfants autistes nous ont été essentielles car elles permettent un dépistage précoce,
+            favorisant
+            ainsi une intervention précoce et personnalisée. Identifier rapidement les signes de l'autisme offre aux
+            enfants la possibilité de bénéficier de programmes adaptés, maximisant leur développement. De plus, ces
+            données contribuent à une compréhension approfondie du trouble, facilitant la création d'interventions et de
+            politiques de santé adaptées. En encourageant le dépistage précoce au moindre doute, nous ouvrons des
+            opportunités d'amélioration significatives dans la qualité de vie des enfants autistes.
+        </p>
+    </section>
+
+
+    <section class="Faire-des-Don">
+        <h2 class="titre-don">Vous voulez nous aider ?</h2>
+        <p class="p-don">Vous pouvez nous aidez à financer la recherche médicale pour améliorer la santé humaine.</p>
+        <a href="https://ibrain.univ-tours.fr/"><button class="godon">Faire un don</button></a>
+      </section>
+
+
+
+<footer>
+    <div class="footer">
+      <div class="footer-nav">
+        <ul class="ul-footer">
+          <li class="li-footer"><a class="a-footer" href="Accueil.html">Accueil</a></li>
+          <li class="li-footer"><a class="a-footer" href="Resultats.html">Résultats</a></li>
+          <li class="li-footer"><a class="a-footer"  href="Experience.html">Expérience</a></li>
+          <li class="li-footer"><a class="a-footer"  href="Contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="svg">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 0C24.8889 0 32 7.11111 32 16C32 24.8889 24.8889 32 16 32C7.11111 32 0 24.8889 0 16C0 7.11111 7.11111 0 16 0ZM11.9111 6.22222H20.2667C23.4667 6.22222 25.9556 8.71111 25.9556 11.7333V20.0889C25.9556 23.1111 23.4667 25.6 20.2667 25.6H11.9111C8.71111 25.6 6.22222 23.1111 6.22222 20.0889V11.9111C6.22222 8.71111 8.71111 6.22222 11.9111 6.22222ZM16 11.0222C18.8444 11.0222 21.1556 13.3333 21.1556 16.1778C21.1556 19.0222 18.8444 21.3333 16 21.3333C13.1556 21.3333 10.6667 19.0222 10.6667 16.1778C10.6667 13.3333 12.9778 11.0222 16 11.0222ZM16 13.1556C17.6 13.1556 19.0222 14.5778 19.0222 16.1778C19.0222 17.7778 17.6 19.2 16 19.2C14.4 19.2 12.9778 17.7778 12.9778 16.1778C12.9778 14.5778 14.2222 13.1556 16 13.1556ZM20.9778 10.1333C21.5111 10.1333 22.0444 10.4889 22.0444 11.2C22.0444 11.7333 21.6889 12.2667 20.9778 12.2667C20.4444 12.2667 19.9111 11.9111 19.9111 11.2C19.9111 10.4889 20.4444 10.1333 20.9778 10.1333ZM12.8 8.35556H19.3778C21.8667 8.35556 23.8222 10.3111 23.8222 12.8V19.3778C23.8222 21.8667 21.8667 23.8222 19.3778 23.8222H12.8C10.3111 23.8222 8.35556 21.8667 8.35556 19.3778V12.8C8.17778 10.3111 10.3111 8.35556 12.8 8.35556Z" fill="black"/> </svg>
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_221_465)"><path d="M32 16C32 24.8533 24.8533 32 16 32C7.14667 32 0 24.8533 0 16C0 7.14667 7.14667 0 16 0C24.8533 0 32 7.14667 32 16ZM26.0267 16C26.0267 8.64 26.0267 8.64 16 8.64C5.97333 8.64 5.97333 8.64 5.97333 16C5.97333 23.36 5.97333 23.36 16 23.36C26.0267 23.36 26.0267 23.36 26.0267 16ZM13.3333 12.0533L20.0533 16.1067L13.3333 20.16V12.0533Z" fill="black"/></g><defs><clipPath id="clip0_221_465"><rect width="32" height="32" fill="white"/></clipPath></defs></svg>      
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_221_471)"><path d="M32 16C32 24.8533 24.8533 32 16 32C7.14667 32 0 24.8533 0 16C0 7.14667 7.14667 0 16 0C24.8533 0 32 7.14667 32 16ZM12.0533 8.32C12.0533 7.04 10.9867 5.97333 9.38667 5.97333C7.78667 5.97333 6.72 6.93333 6.72 8.32C6.72 9.6 7.78667 10.6667 9.38667 10.6667C10.9867 10.6667 12.0533 9.6 12.0533 8.32ZM11.3067 12.6933H7.36V24H11.4133V12.6933H11.3067ZM26.0267 18.0267C26.0267 14.4 24.2133 12.0533 21.3333 12.0533C19.7333 12.0533 18.56 13.0133 18.0267 14.5067L17.92 12.8H13.8667C13.8667 13.2267 13.9733 15.4667 13.9733 15.4667V24.1067H18.0267V18.1333C18.0267 16.5333 18.7733 15.4667 19.9467 15.4667C21.12 15.4667 21.9733 16.1067 21.9733 18.1333V24.1067H26.0267V18.0267Z" fill="black"/></g><defs><clipPath id="clip0_221_471"><rect width="32" height="32" fill="white"/></clipPath></defs></svg>
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_221_461)"><path d="M16.64 32V20.6933H21.9733V16H16.64V12.6933C16.64 11.6267 17.28 10.6667 18.0267 10.6667H22.08V5.97333H18.0267C14.72 5.97333 12.0533 8.96 12.0533 12.6933V16H8V20.6933H12.0533V31.4667C5.12 29.76 0 23.4667 0 16C0 7.14667 7.14667 0 16 0C24.8533 0 32 7.14667 32 16C32 24.64 25.1733 31.68 16.64 32Z" fill="black"/></g><defs><clipPath id="clip0_221_461"><rect width="32" height="32" fill="white"/></clipPath></defs></svg>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/5.1.1/math.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jstat@latest/dist/jstat.min.js"></script>
+<script src="resultats.js"></script>
+
+
+</body>
+</html>

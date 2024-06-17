@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+/* METTRE LA POLICE INTER */
+
+
+
+/* -----------------HEADER----------------- */
+
+header{
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, #061730, #172d50, #294672, #3c6096, #4e7bbc);
+}
+.btn-don{
+    background-color: #172d50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    border: #172d50 2px solid;
+}
+.btn-don:hover{
+    background-color:white;
+    color: #172d50;
+    border: #172d50 2px solid;
+    cursor: pointer;
+}
+.titre{
+    margin-top: 10%;
+    margin-left: 12%;
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.slogan{
+    color: rgb(129, 181, 255);
+    margin-left: 12%;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    width: 70%;
+}
+.btn-soustitre{
+    background-color: white;
+    font-size: 15px;
+    border-style: none;
+    color: #172d50;
+    padding: 14px 35px;
+    border-radius: 15px;
+    font-weight: 600;
+    margin-top: 30px;
+    width: 50%;
+    margin-left: 25%;
+}
+.btn-soustitre:hover{
+    background-color: #172d50 ;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and ( min-width: 700px){
+    .btn-soustitre{
+        margin-left: 12%;
+        width: auto;
+    }
+}
+@media screen and ( min-width: 1000px){
+    .titre{
+        font-size: 60px;
+    }
+    .slogan{
+        font-size: 25px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------DEFINITION----------------- */
+
+.title-pre{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+.titre-présention{
+    color: #1c417c;
+    font-weight: 700;
+    position: relative;
+    font-size: 35px;
+    top: -20px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.surtitre{
+    font-weight: 900;
+    margin-left: 5px;
+    color: black;
+}
+.photo-in-def{
+    width: 95%;
+    height: 200px;
+}
+.photo-def{
+    margin-left: 5% ;
+}
+.img-def{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.img-none{
+    display: none;
+    visibility: hidden;
+}
+.text-def{
+    margin-top: 40px;
+}
+.box-def{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 30px;
+    border-bottom: 3px solid black;
+}
+.titre-def{
+    font-weight: 600;
+}
+.border-none{
+    border: none;
+}
+.btn-def{
+    background-color: white;
+    font-size: 15px;
+    border: 2px solid #172d50;
+    color: #172d50;
+    padding: 14px 35px;
+    border-radius: 50px;
+    font-weight: 700;
+    margin-top: 10px;
+    width: auto;
+}
+.btn-def:hover{
+    background-color: #172d50;
+    border: 2px solid #172d50;
+    color: white;
+}
+.image-def{
+    margin-left: 5%;
+    width: 90%;
+    height: 200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: 50px;
+}
+.image-def2{
+    margin-left: 5%;
+    width: 90%;
+    height: 200px;
+
+}
+.img-sousdef{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.img-sousdef2{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.définition{
+    margin-top: 20px;
+}
+@media screen and ( min-width: 1000px){
+    .img-none{
+        display: block;
+        visibility: visible;
+        width: 32%;
+        height: 200px;
+    }
+    .border-sans{
+        border-radius: 0px;
+    }
+    .photo-in-def{
+        width: 32%;
+        height: 200px;
+        border-radius: 15px;
+    }
+    .photo-def{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 5%;
+    }
+    .border-deux{
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .img-def{
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .text-def{
+        margin-top: 40px;
+        margin-left: 5%;
+        width: 90%;
+        display: flex;
+    }
+    .box-def{
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 30px;
+        border-right: 3px solid black;
+        border-bottom: none;
+    }
+    .image-def{
+        margin-left: 5%;
+        width: 35%;
+        height: 550px;
+        margin-top: 75px;
+        margin-right: 2%;
+
+    }
+    .image-def2{
+        margin-left: 0px;
+        margin-right: 5%;
+        width: 65%;
+        height: 550px;
+        margin-top: 75px;
+    }
+    .border-none{
+        border: none;
+        padding-left: 5%;
+    }
+    .border-yes{
+        padding-right: 5%;
+    }
+    .titre-présention{
+        font-size: 50px;
+    }
+    .vidéo{
+        display: flex;
+    }
+    .img-sousdef{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+
+    }
+    .img-sousdef2{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+}
+@media screen and ( min-width: 1400px){
+    .image-def{
+        height: 450px;
+    }
+    .image-def2{
+        height: 450px;
+    }
+}
+
+
+
+
+/* -----------------DON----------------- */
+
+
+.Faire-des-Don{
+    background-image: linear-gradient(to right bottom, #061730, #172d50, #294672, #3c6096, #4e7bbc);
+    padding-bottom: 50px;
+}
+.titre-don{
+    color: white;
+    font-size: 29px;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.p-don{
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
+.godon{
+    color: white;
+    background-color: black;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-weight: 600;
+
+}
+.godon:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+@media screen and ( min-width: 700px){
+    .titre-don{
+        font-size: 35px;
+    }
+    .p-don{
+        font-size: 15px;
+    }
+}
+@media screen and ( min-width: 1000px){
+    .titre-don{
+        font-size: 40px;
+    }
+    .p-don{
+        font-size: 20px;
+    }
+    .godon{
+        margin-top: 15px;
+        font-size: 20px;
+    }
+}
+@media screen and ( min-width: 1400px){
+    .godon{
+        width: 20%;
+        margin-left: 40%;
+        margin-right: 40%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------FOOTER----------------- */
+
+.ul-footer{
+    margin: 10%;
+    display: grid;
+    grid-template-columns: repeat(2,40%);
+    justify-content: space-between;
+}
+.li-footer:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.li-footer{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.svg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+svg{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+svg:hover{
+    cursor: pointer;    
+}
+.a-footer{
+    color: black;
+}
+@media screen and ( min-width: 500px){
+    .ul-footer{
+        margin: 5%;
+        margin-left: 10%;
+        display: grid;
+        grid-template-columns: repeat(4,22.5%);
+        justify-content: space-between;
+    }
+    .li-footer{
+        font-size: 15px;
+    }
+}
+@media screen and ( min-width: 700px){
+    .li-footer{
+        font-size: 25px;
+    }
+}
+@media screen and ( min-width: 1000px){
+    .footer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .ul-footer{
+        margin: 5%;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        justify-content : space-between;
+    }
+    .li-footer{
+        margin-top: 17px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .svg{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: none;
+        margin-bottom: 25px;
+        margin-right: 5%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+}

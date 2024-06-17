@@ -1,0 +1,464 @@
+/* ------------- paramètres généraux ------------------ */
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Open+Sans:wght@300&family=Poppins&display=swap');
+@import '@splidejs/splide/css';
+
+body {
+    background-color: #F7F7F7;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    line-height: 1.5;
+}
+
+.dflex {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+
+
+/* -----------------HEADER----------------- */
+
+header{
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, #061730, #172d50, #294672, #3c6096, #4e7bbc);
+}
+.btn-don{
+    background-color: #172d50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    border: #172d50 2px solid;
+}
+.btn-don:hover{
+    background-color:white;
+    color: #172d50;
+    border: #172d50 2px solid;
+    cursor: pointer;
+}
+.titre{
+    margin-top: 10%;
+    margin-left: 12%;
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.slogan{
+    color: rgb(129, 181, 255);
+    margin-left: 12%;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    width: 70%;
+}
+.btn-soustitre{
+    background-color: white;
+    font-size: 15px;
+    border-style: none;
+    color: #172d50;
+    padding: 14px 35px;
+    border-radius: 15px;
+    font-weight: 600;
+    margin-top: 30px;
+    width: 50%;
+    margin-left: 25%;
+}
+.btn-soustitre:hover{
+    background-color: #172d50 ;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and ( min-width: 700px){
+    .btn-soustitre{
+        margin-left: 12%;
+        width: auto;
+    }
+}
+@media screen and ( min-width: 1000px){
+    .titre{
+        font-size: 60px;
+    }
+    .slogan{
+        font-size: 25px;
+    }
+    
+}
+
+
+
+
+
+/* -------------------- main ---------------------- */
+
+main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    height: auto;
+}
+
+#QuiSommesNous{
+    margin-top: 5%;
+}
+
+.img_section {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3vw;
+}
+
+.img_section img {
+    width: 30%;
+    transition: border 0.1s ease-in-out;
+    transition: transform 0.3s ease;
+    border-radius:15px;
+}
+
+.div_titleIcon {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+#QuiSommesNous hr {
+    width: 50%;
+    color: black;
+    margin-top: 0.7vw;
+    margin-bottom: 2vw;
+}
+
+.infos_QuiSommesNous p {
+    width: 60%;
+    font-size: 17px;
+    padding-top: 0;
+    padding-right: 0;
+}
+
+.infos_QuiSommesNous h2 {
+    align-items: center;
+    padding-top: 0.3vw;
+}
+
+.div_equipe {
+    display: flex;
+}
+
+.div_fonctionnement {
+    display: flex;
+}
+
+.div_approche {
+    display: flex;
+    margin-bottom: 2vw;
+}
+
+.div_equipe img {
+    display: none;
+    width: 40%;
+    align-items: center;
+    padding-bottom: 2vw;
+}
+
+.div_fonctionnement img {
+    display: none;
+    width: 40%;
+    align-items: center;
+    padding-bottom: 2vw;
+
+}
+
+.div_approche img {
+    display: none;
+    width: 40%;
+    align-items: center;
+    padding-bottom: 2vw;
+
+}
+
+@media screen and (max-width:1000px) and (min-width:761px) {
+    #QuiSommesNous h1 {
+        text-align: center;
+    }
+
+    .infos_QuiSommesNous p {
+        padding-top: 4vw;
+        padding-right: 2.5vw;
+        font-size: 18px;
+        font-weight: 10;
+    }
+
+    .img_section {
+        display: none;
+    }
+
+    .div_equipe img {
+        display: block;
+
+    }
+
+    .div_fonctionnement img {
+        display: block;
+
+    }
+
+    .div_approche img {
+        display: block;
+
+    }
+
+    #QuiSommesNous hr {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:760px) {
+    #QuiSommesNous h1 {
+        text-align: center;
+    }
+
+    .img_section {
+        display: none;
+    }
+
+    .div_equipe {
+        flex-direction: column;
+    }
+
+    .div_fonctionnement {
+        flex-direction: column;
+    }
+
+    .div_approche {
+        flex-direction: column;
+    }
+
+
+
+
+
+    .infos_QuiSommesNous p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .div_equipe img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 3.5vw;
+        width: 220px;
+    }
+
+    .div_fonctionnement img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 3.5vw;
+        width: 220px;
+    }
+
+    .div_approche img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 3.5vw;
+        width: 220px;
+    }
+
+    #QuiSommesNous hr {
+        width: 100%;
+    }
+}
+
+
+/* -----------------DON----------------- */
+
+
+.Faire-des-Don{
+    background-image: linear-gradient(to right bottom, #061730, #172d50, #294672, #3c6096, #4e7bbc);
+    padding-bottom: 50px;
+}
+.titre-don{
+    color: white;
+    font-size: 29px;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.p-don{
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
+.godon{
+    color: white;
+    background-color: black;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-weight: 600;
+
+}
+.godon:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+@media screen and ( min-width: 700px){
+    .titre-don{
+        font-size: 35px;
+    }
+    .p-don{
+        font-size: 15px;
+    }
+}
+@media screen and ( min-width: 1000px){
+    .titre-don{
+        font-size: 40px;
+    }
+    .p-don{
+        font-size: 20px;
+    }
+    .godon{
+        margin-top: 15px;
+        font-size: 20px;
+    }
+}
+@media screen and ( min-width: 1400px){
+    .godon{
+        width: 20%;
+        margin-left: 40%;
+        margin-right: 40%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------FOOTER----------------- */
+
+.ul-footer{
+    margin: 10%;
+    display: grid;
+    grid-template-columns: repeat(2,40%);
+    justify-content: space-between;
+}
+.li-footer:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.li-footer{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.svg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+svg{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+svg:hover{
+    cursor: pointer;    
+}
+.a-footer{
+    color: black;
+}
+@media screen and ( min-width: 500px){
+    .ul-footer{
+        margin: 5%;
+        margin-left: 10%;
+        display: grid;
+        grid-template-columns: repeat(4,22.5%);
+        justify-content: space-between;
+    }
+    .li-footer{
+        font-size: 15px;
+    }
+}
+@media screen and ( min-width: 700px){
+    .li-footer{
+        font-size: 25px;
+    }
+}
+@media screen and ( min-width: 1000px){
+    .footer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .ul-footer{
+        margin: 5%;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        justify-content : space-between;
+    }
+    .li-footer{
+        margin-top: 17px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .svg{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: none;
+        margin-bottom: 25px;
+        margin-right: 5%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+}

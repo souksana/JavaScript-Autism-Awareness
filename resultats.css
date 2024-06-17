@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    font-size: 1rem;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+/* METTRE LA POLICE INTER */ 
+
+
+
+/* -----------------HEADER----------------- */
+
+.s {
+    margin: 0% 5%;
+}
+
+header{
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, #061730, #172d50, #294672, #3c6096, #4e7bbc);
+}
+.btn-don{
+    background-color: #172d50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    border: #172d50 2px solid;
+}
+.btn-don:hover{
+    background-color:white;
+    color: #172d50;
+    border: #172d50 2px solid;
+    cursor: pointer;
+}
+.titre{
+    margin-top: 10%;
+    margin-left: 12%;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.slogan{
+    color: rgb(129, 181, 255);
+    margin-left: 12%;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    width: 70%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.btn-soustitre{
+    background-color: white;
+    font-size: 15px;
+    border-style: none;
+    color: #172d50;
+    padding: 14px 35px;
+    border-radius: 15px;
+    font-weight: 600;
+    margin-top: 30px;
+    width: 50%;
+    margin-left: 25%;
+}
+.btn-soustitre:hover{
+    background-color: #172d50 ;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and ( min-width: 700px){
+    .btn-soustitre{
+        margin-left: 12%;
+        width: auto;
+    }
+}
+@media screen and ( min-width: 1000px){
+    .titre{
+        font-size: 60px;
+    }
+    .slogan{
+        font-size: 25px;
+    }
+    
+}
+
+
+
+
+
+canvas {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+table td {
+    border: 1px solid black;
+
+}
+
+
+
+
+
+.animation {
+    margin-left: 20%;
+    width:60%;
+    border: solid 1px rgb(226, 215, 215);
+    border-radius: 10px;
+}
+
+.animation img {
+    max-width: 100%;
+    height:auto;
+    text-align: center;
+}
+
+.spanPara {
+    color: #152788;
+}
+
+input[type=file] {
+    display: none;
+}
+
+.custom-input-file {
+    border: 2px solid #152788;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+select,
+option {
+    border: 2px solid #152788;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 6px 12px;
+}
+
+.rowVar {
+    height: 100%;
+}
+
+.imgVar {
+    height: 100%;
+    text-align: center;
+}
+
+.imgVar img {
+    height: 10vh;
+}
+
+@media screen and (max-height: 800px) {
+    .imgVar img {
+        height: 25vh;
+    }
+
+}
+
+.PIMG {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.choix_fichier {
+    display: flex;
+    align-items: center;
+    gap: 1%;
+    width: 40%;
+}
+
+.choix_fichier p {
+    margin: 0;
+    font-size: 1vw;
+}
+
+.choix {
+    margin-bottom: 2%;
+}
+
+.erreur {
+    color: red;
+    font-size: 2vw;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin:0;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 1.50rem;
+}
+
+.sh2 {
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+@media screen and (min-width: 1000px) {
+    h1 {
+        font-size: 50px
+    }
+}
+
+hr {
+    margin : 4% 0;
+}
+
+.exposants {
+    color:#db7602;
+}
+
+#dn2 {
+    margin: 3% 0;
+}
+
+
+
+
+/* -----------------DON----------------- */
+
+
+.Faire-des-Don{
+    background-image: linear-gradient(to right bottom, #061730, #172d50, #294672, #3c6096, #4e7bbc);
+    padding-bottom: 50px;
+}
+.titre-don{
+    color: white;
+    font-size: 29px;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 50px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.p-don{
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
+.godon{
+    color: white;
+    background-color: black;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-weight: 600;
+}
+.godon:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+@media screen and ( min-width: 700px){
+    .titre-don{
+        font-size: 35px;
+    }
+    .p-don{
+        font-size: 15px;
+    }
+}
+@media screen and ( min-width: 1000px){
+    .titre-don{
+        font-size: 40px;
+    }
+    .p-don{
+        font-size: 20px;
+    }
+    .godon{
+        margin-top: 15px;
+        font-size: 20px;
+    }
+}
+@media screen and ( min-width: 1400px){
+    .godon{
+        width: 20%;
+        margin-left: 40%;
+        margin-right: 40%;
+    }
+}
+
+
+/* -----------------FOOTER----------------- */
+
+
+.ul-footer{
+    margin: 10%;
+    display: grid;
+    grid-template-columns: repeat(2,40%);
+    justify-content: space-between;
+}
+.li-footer:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.li-footer{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.svg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+svg{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+svg:hover{
+    cursor: pointer;    
+}
+.a-footer{
+    color: black;
+}
+@media screen and ( min-width: 500px){
+    .ul-footer{
+        margin: 5%;
+        margin-left: 10%;
+        display: grid;
+        grid-template-columns: repeat(4,22.5%);
+        justify-content: space-between;
+    }
+    .li-footer{
+        font-size: 15px;
+    }
+}
+@media screen and ( min-width: 700px){
+    .li-footer{
+        font-size: 25px;
+    }
+}
+@media screen and ( min-width: 1000px){
+    .footer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .ul-footer{
+        margin: 5%;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        justify-content : space-between;
+    }
+    .li-footer{
+        margin-top: 17px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .svg{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: none;
+        margin-bottom: 25px;
+        margin-right: 5%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+}

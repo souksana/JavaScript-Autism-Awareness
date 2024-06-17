@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+
+/* METTRE LA POLICE INTER */ 
+
+
+
+/* -----------------HEADER----------------- */
+
+header{
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, #061730, #172d50, #294672, #3c6096, #4e7bbc);
+}
+.btn-don{
+    background-color: #172d50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    border: #172d50 2px solid;
+}
+.btn-don:hover{
+    background-color:white;
+    color: #172d50;
+    border: #172d50 2px solid;
+    cursor: pointer;
+}
+.titre{
+    margin-top: 10%;
+    margin-left: 12%;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.slogan{
+    color: rgb(129, 181, 255);
+    margin-left: 12%;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    width: 70%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.btn-soustitre{
+    background-color: white;
+    font-size: 15px;
+    border-style: none;
+    color: #172d50;
+    padding: 14px 35px;
+    border-radius: 15px;
+    font-weight: 600;
+    margin-top: 30px;
+    width: 50%;
+    margin-left: 25%;
+}
+.btn-soustitre:hover{
+    background-color: #172d50 ;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and ( min-width: 700px){
+    .btn-soustitre{
+        margin-left: 12%;
+        width: auto;
+    }
+}
+@media screen and ( min-width: 1000px){
+    .titre{
+        font-size: 60px;
+    }
+    .slogan{
+        font-size: 25px;
+    }
+    
+}
+
+/* -----------------CONTACT----------------- */
+
+
+
+.contacte{
+    background-color: #CBE3FF;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+
+.contact {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 5%;
+    margin: 0px auto;
+    max-width: 600px;
+}
+
+.contact h2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #172d50;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.btn-envoyer {
+    background-color: #172d50!important;
+    color: white !important;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-envoyer:hover {
+    background-color: #0a1935;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------FOOTER----------------- */
+
+
+.ul-footer{
+    margin: 10%;
+    display: grid;
+    grid-template-columns: repeat(2,40%);
+    justify-content: space-between;
+}
+.li-footer:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.li-footer{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.svg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+svg{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+svg:hover{
+    cursor: pointer;    
+}
+.a-footer{
+    color: black;
+}
+@media screen and ( min-width: 500px){
+    .ul-footer{
+        margin: 5%;
+        margin-left: 10%;
+        display: grid;
+        grid-template-columns: repeat(4,22.5%);
+        justify-content: space-between;
+    }
+    .li-footer{
+        font-size: 15px;
+    }
+}
+@media screen and ( min-width: 700px){
+    .li-footer{
+        font-size: 25px;
+    }
+}
+@media screen and ( min-width: 1000px){
+    .footer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .ul-footer{
+        margin: 5%;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        justify-content : space-between;
+    }
+    .li-footer{
+        margin-top: 17px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .svg{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: none;
+        margin-bottom: 25px;
+        margin-right: 5%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+}
